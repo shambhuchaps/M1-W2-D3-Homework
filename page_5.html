@@ -74,14 +74,14 @@
             list-style: none;
             display: inline-block;
             margin-left: 2em;
-            padding:0.2em 0.3em;
+            padding:0.2em 1em;
             border-bottom: 1px solid black;
         }
 
         .left ul li a {
             text-decoration: none;
             color: brown;
-            padding: 0.4em 2em;
+            padding: 0.4em 1em;
             font-size: 16pt;
             border-radius: 0.5em;
             line-height: 1em;
@@ -95,7 +95,7 @@
         .left ul ul{
             position: absolute;
             top: 0em;
-            left: 11em;
+            left: 7em;
             display: none;
         }
         .left ul li:hover > ul{
@@ -115,10 +115,21 @@
         .left ul ul ul li{
             position: relative;
             top: 0em;
-            left: -0.9em;
+            left: 3.1em;
         }
         .active{
             background-color: green;
+            color: white !important;
+        }
+        .start{
+            border: 1.5px solid white;
+            box-shadow: 0px 0px 15px -2px #000000;
+            margin-top: 0.5em;
+        }
+        .start:hover{
+            color: white !important;
+            background-color: black;
+            transition: 500ms ease-in-out;
         }
 
         .left p {
@@ -173,26 +184,34 @@
         <section class="middle">
             <aside class="left">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="sample_web.html">New Page 1</a></li>
-                    <li><a href="page_2.html">New Page 2</a></li>
-                    <li><a href="page_3.html">New Page 3</a></li>
-                    <li><a href="page_4.html">New Page 4</a>
+                    <li><a href="index.html">Home</a>
                         <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Courses</a>
-                             <ul>
-                                 <li><a href="#">Course 1</a></li>
-                                 <li><a href="#">Course 2</a></li>
-                                 <li><a href="#">Course 3</a></li>
-                             </ul>
-                         </li>
-                            <li><a href="#">Resources</a></li>
-                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="sample_web.html">New Page</a></li>
+                            <li><a href="page_2.html">New Page 2</a></li>
+                            <li><a href="page_3.html">New Page 3</a></li>
+                            <li><a href="page_4.html">New Page 4</a>
+                                <ul>
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="#">Courses</a>
+                                     <ul>
+                                         <li><a href="#">Course 1</a></li>
+                                         <li><a href="#">Course 2</a></li>
+                                         <li><a href="#">Course 3</a></li>
+                                     </ul>
+                                 </li>
+                                    <li><a href="#">Resources</a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="page_5.html">New Page 5</a></li>
                         </ul>
                     </li>
-                    <li><a class="active" href="page_5.html">New Page 5</a></li>
+                    <li><a href="features.html">Features</a></li>
+                    <li><a href="reviews.html">Reviews</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a class="start" href="register.html">Get Started</a></li>
                 </ul>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora maiores architecto ut consequuntur
                     modi fugiat repellat mollitia nisi quod ab, saepe distinctio facere! Impedit praesentium deserunt
